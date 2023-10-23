@@ -169,7 +169,10 @@ body {
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
 }
-
+.microsoft {
+  color: #4c545c
+  ;
+}
 .main_button {
   margin-top: 48px;
 }
@@ -227,7 +230,7 @@ footer {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 30px;
+    row-gap: 40px;
   }
 }
 @media (max-width: 1050px) {
@@ -238,7 +241,7 @@ footer {
   .main_grid_box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 20px;
+    row-gap: 40px;
     margin: 0 auto;
   }
   .main_logos_box {
@@ -318,9 +321,6 @@ footer {
   }
 }
 @media (max-width: 450px) {
-  .hero_container {
-    padding: 0px 10px;
-  }
   .header_logo_box {
     padding-top: 123px;
     padding-bottom: 64px;
