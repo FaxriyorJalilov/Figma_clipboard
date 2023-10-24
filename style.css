@@ -71,11 +71,17 @@ body {
     0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
   padding: 13px 36px;
 }
+.header_button a:active {
+  background: #0ce3c3;
+}
 .header_button a + a {
   background: #6174ff;
 }
+.header_button a + a:active {
+  background: #1b35f3;
+}
 .main {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .main h2 {
   color: #4c545c;
@@ -170,8 +176,7 @@ body {
   align-items: center;
 }
 .microsoft {
-  color: #4c545c
-  ;
+  color: #4c545c;
 }
 .main_button {
   margin-top: 48px;
@@ -202,7 +207,7 @@ footer {
 }
 .footer_left ul li {
   width: 160px;
-  color: #4c545c;
+  color: #e91c11;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -219,6 +224,9 @@ footer {
 .footer_right a i:hover {
   color: #26bba4;
   cursor: pointer;
+}
+.footer_right a i:active {
+  color: #26bba4;
 }
 .footer_right {
   display: flex;
