@@ -133,10 +133,10 @@ body {
 .main_phone {
   margin-top: 110px;
   text-align: center;
-  margin-bottom: 161px;
+  margin-bottom: 150px;
 }
 .main_phone img {
-  width: 75%;
+  /* width: 70%; */
 }
 
 .main_grid_box {
@@ -234,6 +234,9 @@ footer {
   gap: 40px;
 }
 @media (max-width: 1300px) {
+  .main_phone img {
+    width: 70%;
+  }
   .main_logos_box {
     text-align: center;
     display: grid;
